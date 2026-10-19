@@ -1,3 +1,10 @@
+> **SNGL fork, branch `sngl-v2`.** Upstream v2.27.0 with every lexer removed
+> except bash, bash_session, c, css, diff, ebnf, go (and go_template, which it
+> loads), html, javascript, json, kotlin, markdown, plaintext, toml,
+> typescript, xml and yaml. SNGL embeds chroma in its compiler, and the other
+> ~260 lexers were binary size for languages it never shows. Add a lexer back
+> by restoring its file from upstream.
+
 ![Chroma](chroma.jpg)
 
 # A general purpose syntax highlighter in pure Go
